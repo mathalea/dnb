@@ -7,6 +7,9 @@
 * Sujets à partir de l'année 2013.
 
     
-## Notes
+## Structure
 
-...
+* ./année
+    * ./tex
+        * ./png
+        * ./eps
