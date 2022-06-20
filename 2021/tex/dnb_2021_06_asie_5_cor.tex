@@ -1,22 +1,131 @@
 
+\bigskip
+
+\textbf{Première partie}
+
+\medskip
+
+%En plaçant plusieurs cubes unités, on construit ce solide:
+%
+%\begin{center}
+%\psset{unit=0.7cm}
+%\begin{pspicture}(-1.5,-1.5)(4,5)
+%%\psgrid
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\rput(0.5,3.5){\cubed}\rput(1.5,2.5){\cubed}\rput(2.5,1.5){\cubed}
+%\rput(2.086,0.1){\cubed}\rput(1.675,-1.3){\cubed}
+%\rput(0.086,2.1){\cubed}\rput(-0.328,0.71){\cubed}\rput(0.672,-0.29){\cubed}
+%\psline(-0.328,0.71)(-0.328,-1.3)(1.7,-1.3)
+%\psline(-0.328,-0.29)(0.672,-0.29)(0.672,-1.29)
+%\psline(3.1,-0.9)(3.514,-0.5)(3.514,0.5) 
+%\psline(3.514,0.5)(3.928,0.9)(3.928,-0.1)(3.5,-0.5)
+%\psline(3.928,0.9)(3.928,1.9)
+%\rput(1.1,1.1){\cubed}
+%\end{pspicture}
+%\end{center}
+%
+%\textbf{Question }: Combien de cubes unités au minimum manque-t-il pour compléter ce solide et obtenir un pavé droit ?
+Dans la troisième couche verticale la plus profonde il manque 3 cubes.
+
+Dans la deuxième couche verticale  il manque 6 cubes.
+
+Dans la première couche verticale il manque 9 cubes. Il manque donc en tout $3 + 6 + 9 = 18$~cubes.
+\bigskip
+
+\textbf{Deuxième partie}
+
+\medskip
+
+%Un jeu en 3D contient les sept pièces représentées ci-dessous. Chaque pièce est constituée de cubes identiques d'arête 1dm.
+%
+%\begin{center}
+%\psset{unit=0.7cm}
+%\begin{tabularx}{\linewidth}{*{4}{>{\centering \arraybackslash}X}}
+%Pièce \no 1 (3 cubes) &Pièce \no 2 (4 cubes)&Pièce \no 3 (4 cubes)& Pièce \no (4 cubes)\\
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\psframe(1,1)\rput(0,1){\cubed}\rput(1,0){\cubed}
+%\end{pspicture}&
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\rput(0.414,1.4){\cubed}\rput(1.414,0.4){\cubed}\rput(0,0){\cubed}
+%\end{pspicture}&
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\psframe(1,1)\rput(1,0){\cubed}\rput(2,0){\cubed}
+%\rput(0,1){\cubed}
+%\end{pspicture}&
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\rput(0.6,0){\cubed}\rput(0,1.4){\cubed}
+%\psline(0,1.4)(0,0.4)(0.6,0.4)
+%\psline(2,0.4)(2.414,0.8)(2.414,1.8)(1.414,1.8)
+%\psline(2,1.4)(2.414,1.8)
+%\end{pspicture}\\
+%Pièce \no 5 (4 cubes) &Pièce \no 6 (4 cubes)&Pièce \no 7 (4 cubes)& \\
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\psline(1,0)(0,0)(0,1)(1,1)\psline(0,1)(0.414,1.4)(1,1.4)\psline(1,1)(2,1)\psline(1,0)(2,0)\rput(2,0){\cubed}\psline(1,0)(1,1)
+%\rput(1,1){\cubed}
+%\end{pspicture}
+%&\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\rput(0,0){\cubed}
+%\rput(1.414,1.4){\cubed}\psline(1.414,1.4)(2.414,1.4)(2.414,0.4)(1.414,0.4)
+%\psline(2.414,0.4)(2.828,0.8)(2.828,1.8)
+%\psline(0.414,1.4)(0.828,1.8)(1.414,1.8)
+%\end{pspicture} &
+%\begin{pspicture}(3,3)
+%\def\cubed{\psframe(1,1)
+%\psline(1,0)(1.414,0.4)(1.414,1.4)(1,1)
+%\psline(1.414,1.4)(0.414,1.4)(0,1)}
+%\psframe(2,1)(3,2)\psframe(1,1)
+%\rput(2,1){\cubed}\psframe(1,1)\psframe(1,0)(2,1)
+%\psline(1,1)(1,2)(2,2)
+%\psline(1,2)(1.414,2.4)(2.414,2.4)
+%\psline(0,1)(0.414,1.4)(1,1.4)
+%\psline(2,0)(2.414,0.4)(2.414,1)
+%\end{pspicture}&
+%\end{tabularx}
+%\end{center}
+
 \begin{enumerate}
-\item Le premier motif comporte $1+2+3=6 cubes$. Quand on recule d'une rangée on ajoute $3 cubes$ au motif précédent. Il y a donc $6+9+12=27 cubes$. Or le pavé droit a pour volume:$3 \times 3 \times 6=54 cubes$.
-
-
-Il manque donc $54-27=27 cubes$.
-
-\remarque{ Si l'on est astucieux on peut se rendre compte que l'on a la moitié du pavé droit qui est remplie...}
-
-\item %\includegraphics[scale=0.5]{ex5}
-
-\item 
+\item ~%Dessiner une vue de dessus de la pièce \no 4 (en prenant 2 cm sur le dessin pour représenter
+%1 dm dans la réalité).
+\begin{center}
+\psset{unit=2cm}
+\begin{pspicture}(2,2)
+%\psgrid
+\psset{linewidth=1.25pt}
+\pspolygon(0,1)(0,2)(2,2)(2,0)(1,0)(1,1)
+\end{pspicture}
+\end{center}
+\item %À l'aide de la totalité de ces sept pièces, il est possible de construire un grand cube sans espace vide.
 	\begin{enumerate}
-		\item Le volume du cube est:
-\begin{align*}
-6 \times 4+3=27dm^3
-\end{align*}
-		\item $3^3=27$ l'arête de ce grand cube mesure donc $3dm$.
+		\item %Quel sera alors le volume $\left(\text{en dm}^3\right)$ de ce grand cube ?
+Il y aura en tout $3 + 4+  4 + 4 + + 4 + 4 + 4 = 27$ cubes unités.
+		
+Comme chaque cube a un volume de $1^3 = 1~\left(\text{dm}^3\right)$, le volume du grand cube est 
 
-\remarque{sur votre calculatrice vous pouvez utiliser $\sqrt[3]{x}$.}
+$27 \times 1 = 27~\left(\text{dm}^3\right)$.
+		\item %Quelle est la longueur d'une arête (en dm) de ce grand cube ?
+On remarque que $27 = 3 \times 3 \times 3 = 3^3$. 
+
+On sait que le volume d'un cube d'arête $a$ est $V = a^3$, donc l'arête du grand cube est 3~dm.
 	\end{enumerate}
 \end{enumerate}
+\begin{center}\decoone \end{center}
